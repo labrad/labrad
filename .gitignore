@@ -1,1 +1,4 @@
 LabRAD.ini
+.project
+.pydevproject
+*.pyc

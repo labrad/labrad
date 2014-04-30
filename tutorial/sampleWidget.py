@@ -5,13 +5,14 @@ class sampleWidget(QtGui.QWidget):
     def __init__(self, reactor, parent=None):
         super(sampleWidget, self).__init__(parent)
         self.reactor = reactor
+        self.setWindowTitle('Sample Widget')
         self.connect()
     
     @inlineCallbacks
     def connect(self):
         #make an asynchronous connection to LabRAD
         from labrad.wrappers import connectAsync
-        self.cxn = yield connectAsync()
+        self.cxn = yield connectAsync(name = 'Sample Widget')
     
     def closeEvent(self, x):
         #stop the reactor when closing the widget
