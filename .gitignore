@@ -2,3 +2,5 @@ LabRAD.ini
 .project
 .pydevproject
 *.pyc
+tests/lib/servers/_trial_temp/_trial_marker
+tests/lib/servers/_trial_temp/test.log
