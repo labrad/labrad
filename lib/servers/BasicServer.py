@@ -18,10 +18,7 @@ timeout = 20
 ### END NODE INFO
 """
 
-from labrad.server import LabradServer, setting, Signal
-from twisted.internet import reactor
-from twisted.internet.defer import inlineCallbacks
-import labrad
+from labrad.server import LabradServer, setting
 
 class BasicServer(LabradServer):
     """
