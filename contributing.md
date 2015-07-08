@@ -1,8 +1,17 @@
 # Contributing to labrad
 
-## Process
+These are guidelines for contributing to all repositories in the labrad organization.
 
-The following instructions are for contributors to repositories in the labrad organization.
+## Documentation
+
+We use the github wikis for documentation.
+If you have commit access, just edit the wiki, no pull request needed.
+If you do not have commit access, please file an issue and add the `doc/wiki` tag.
+We really appreciate contributions to help improve the documentation!
+
+## Code
+
+These instructions are for contributors who have commit access to repositories in the labrad organization.
 Other users working in their own fork can will use whatever procedure they like for managing contributions.
 Once those contributions are ready to be included in the main repository, they should file a pull
 request and allow the labrad contributors to carry out the rest of the steps.
